@@ -1,0 +1,15 @@
+CREATE DATABASE Shop
+
+USE Shop
+
+CREATE TABLE Brands
+(
+	Id INT PRIMARY KEY IDENTITY,
+	Name NVARCHAR(50),
+	Date DATETIME2
+)
+
+select * from Brands
+
+
+
